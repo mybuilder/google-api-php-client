@@ -438,14 +438,14 @@ class GaData extends Model {
   public $totalsForAllResults;
   public $nextLink;
   public $id;
-  protected $__queryType = 'GaDataQuery';
+  protected $__queryType = 'GoogleApi\Contrib\GaDataQuery';
   protected $__queryDataType = '';
   public $query;
   public $previousLink;
-  protected $__profileInfoType = 'GaDataProfileInfo';
+  protected $__profileInfoType = 'GoogleApi\Contrib\GaDataProfileInfo';
   protected $__profileInfoDataType = '';
   public $profileInfo;
-  protected $__columnHeadersType = 'GaDataColumnHeaders';
+  protected $__columnHeadersType = 'GoogleApi\Contrib\GaDataColumnHeaders';
   protected $__columnHeadersDataType = 'array';
   public $columnHeaders;
   public $selfLink;
