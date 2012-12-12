@@ -1,5 +1,5 @@
 {
-    "name": "evert/google-api-php-client",
+    "name": "mybuilder/google-api-php-client",
     "type": "library",
     "description": "Google API library for PHP",
     "keywords": ["google","gdata"],
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-0": {
-            "GoogleApi": "src/"
+            "GoogleApi\\": "src/"
         }
     }
 }
